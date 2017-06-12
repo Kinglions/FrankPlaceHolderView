@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01C0506B1EEE605C0020160F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C0506A1EEE605C0020160F /* main.m */; };
+		01C0506E1EEE605C0020160F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C0506D1EEE605C0020160F /* AppDelegate.m */; };
+		01C050711EEE605C0020160F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C050701EEE605C0020160F /* ViewController.m */; };
+		01C050741EEE605C0020160F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C050721EEE605C0020160F /* Main.storyboard */; };
+		01C050761EEE605C0020160F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01C050751EEE605C0020160F /* Assets.xcassets */; };
+		01C050791EEE605C0020160F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C050771EEE605C0020160F /* LaunchScreen.storyboard */; };
+		01C050841EEE605D0020160F /* FrankPlaceHolderViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C050831EEE605D0020160F /* FrankPlaceHolderViewDemoTests.m */; };
+		01C0508F1EEE605D0020160F /* FrankPlaceHolderViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C0508E1EEE605D0020160F /* FrankPlaceHolderViewDemoUITests.m */; };
+		01C050A01EEE616C0020160F /* FrankPlaceHolder.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 01C0509D1EEE616C0020160F /* FrankPlaceHolder.bundle */; };
+		01C050A11EEE616C0020160F /* UIView+FrankPlaceHolderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C0509F1EEE616C0020160F /* UIView+FrankPlaceHolderView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01C050801EEE605D0020160F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01C0505E1EEE605C0020160F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01C050651EEE605C0020160F;
+			remoteInfo = FrankPlaceHolderViewDemo;
+		};
+		01C0508B1EEE605D0020160F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01C0505E1EEE605C0020160F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01C050651EEE605C0020160F;
+			remoteInfo = FrankPlaceHolderViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01C050661EEE605C0020160F /* FrankPlaceHolderViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrankPlaceHolderViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01C0506A1EEE605C0020160F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01C0506C1EEE605C0020160F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01C0506D1EEE605C0020160F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01C0506F1EEE605C0020160F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		01C050701EEE605C0020160F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		01C050731EEE605C0020160F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01C050751EEE605C0020160F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01C050781EEE605C0020160F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01C0507A1EEE605C0020160F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01C0507F1EEE605D0020160F /* FrankPlaceHolderViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrankPlaceHolderViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01C050831EEE605D0020160F /* FrankPlaceHolderViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrankPlaceHolderViewDemoTests.m; sourceTree = "<group>"; };
+		01C050851EEE605D0020160F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01C0508A1EEE605D0020160F /* FrankPlaceHolderViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrankPlaceHolderViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01C0508E1EEE605D0020160F /* FrankPlaceHolderViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrankPlaceHolderViewDemoUITests.m; sourceTree = "<group>"; };
+		01C050901EEE605D0020160F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01C0509D1EEE616C0020160F /* FrankPlaceHolder.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FrankPlaceHolder.bundle; sourceTree = "<group>"; };
+		01C0509E1EEE616C0020160F /* UIView+FrankPlaceHolderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrankPlaceHolderView.h"; sourceTree = "<group>"; };
+		01C0509F1EEE616C0020160F /* UIView+FrankPlaceHolderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrankPlaceHolderView.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01C050631EEE605C0020160F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C0507C1EEE605D0020160F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C050871EEE605D0020160F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01C0505D1EEE605C0020160F = {
+			isa = PBXGroup;
+			children = (
+				01C050681EEE605C0020160F /* FrankPlaceHolderViewDemo */,
+				01C050821EEE605D0020160F /* FrankPlaceHolderViewDemoTests */,
+				01C0508D1EEE605D0020160F /* FrankPlaceHolderViewDemoUITests */,
+				01C050671EEE605C0020160F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01C050671EEE605C0020160F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01C050661EEE605C0020160F /* FrankPlaceHolderViewDemo.app */,
+				01C0507F1EEE605D0020160F /* FrankPlaceHolderViewDemoTests.xctest */,
+				01C0508A1EEE605D0020160F /* FrankPlaceHolderViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01C050681EEE605C0020160F /* FrankPlaceHolderViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				01C0509C1EEE616C0020160F /* FrankPlaceHolderView */,
+				01C0506C1EEE605C0020160F /* AppDelegate.h */,
+				01C0506D1EEE605C0020160F /* AppDelegate.m */,
+				01C0506F1EEE605C0020160F /* ViewController.h */,
+				01C050701EEE605C0020160F /* ViewController.m */,
+				01C050721EEE605C0020160F /* Main.storyboard */,
+				01C050751EEE605C0020160F /* Assets.xcassets */,
+				01C050771EEE605C0020160F /* LaunchScreen.storyboard */,
+				01C0507A1EEE605C0020160F /* Info.plist */,
+				01C050691EEE605C0020160F /* Supporting Files */,
+			);
+			path = FrankPlaceHolderViewDemo;
+			sourceTree = "<group>";
+		};
+		01C050691EEE605C0020160F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01C0506A1EEE605C0020160F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01C050821EEE605D0020160F /* FrankPlaceHolderViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				01C050831EEE605D0020160F /* FrankPlaceHolderViewDemoTests.m */,
+				01C050851EEE605D0020160F /* Info.plist */,
+			);
+			path = FrankPlaceHolderViewDemoTests;
+			sourceTree = "<group>";
+		};
+		01C0508D1EEE605D0020160F /* FrankPlaceHolderViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01C0508E1EEE605D0020160F /* FrankPlaceHolderViewDemoUITests.m */,
+				01C050901EEE605D0020160F /* Info.plist */,
+			);
+			path = FrankPlaceHolderViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		01C0509C1EEE616C0020160F /* FrankPlaceHolderView */ = {
+			isa = PBXGroup;
+			children = (
+				01C0509D1EEE616C0020160F /* FrankPlaceHolder.bundle */,
+				01C0509E1EEE616C0020160F /* UIView+FrankPlaceHolderView.h */,
+				01C0509F1EEE616C0020160F /* UIView+FrankPlaceHolderView.m */,
+			);
+			path = FrankPlaceHolderView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01C050651EEE605C0020160F /* FrankPlaceHolderViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01C050931EEE605D0020160F /* Build configuration list for PBXNativeTarget "FrankPlaceHolderViewDemo" */;
+			buildPhases = (
+				01C050621EEE605C0020160F /* Sources */,
+				01C050631EEE605C0020160F /* Frameworks */,
+				01C050641EEE605C0020160F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FrankPlaceHolderViewDemo;
+			productName = FrankPlaceHolderViewDemo;
+			productReference = 01C050661EEE605C0020160F /* FrankPlaceHolderViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01C0507E1EEE605D0020160F /* FrankPlaceHolderViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01C050961EEE605D0020160F /* Build configuration list for PBXNativeTarget "FrankPlaceHolderViewDemoTests" */;
+			buildPhases = (
+				01C0507B1EEE605D0020160F /* Sources */,
+				01C0507C1EEE605D0020160F /* Frameworks */,
+				01C0507D1EEE605D0020160F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01C050811EEE605D0020160F /* PBXTargetDependency */,
+			);
+			name = FrankPlaceHolderViewDemoTests;
+			productName = FrankPlaceHolderViewDemoTests;
+			productReference = 01C0507F1EEE605D0020160F /* FrankPlaceHolderViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01C050891EEE605D0020160F /* FrankPlaceHolderViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01C050991EEE605D0020160F /* Build configuration list for PBXNativeTarget "FrankPlaceHolderViewDemoUITests" */;
+			buildPhases = (
+				01C050861EEE605D0020160F /* Sources */,
+				01C050871EEE605D0020160F /* Frameworks */,
+				01C050881EEE605D0020160F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01C0508C1EEE605D0020160F /* PBXTargetDependency */,
+			);
+			name = FrankPlaceHolderViewDemoUITests;
+			productName = FrankPlaceHolderViewDemoUITests;
+			productReference = 01C0508A1EEE605D0020160F /* FrankPlaceHolderViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01C0505E1EEE605C0020160F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Frank;
+				TargetAttributes = {
+					01C050651EEE605C0020160F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					01C0507E1EEE605D0020160F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 01C050651EEE605C0020160F;
+					};
+					01C050891EEE605D0020160F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 01C050651EEE605C0020160F;
+					};
+				};
+			};
+			buildConfigurationList = 01C050611EEE605C0020160F /* Build configuration list for PBXProject "FrankPlaceHolderViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01C0505D1EEE605C0020160F;
+			productRefGroup = 01C050671EEE605C0020160F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01C050651EEE605C0020160F /* FrankPlaceHolderViewDemo */,
+				01C0507E1EEE605D0020160F /* FrankPlaceHolderViewDemoTests */,
+				01C050891EEE605D0020160F /* FrankPlaceHolderViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01C050641EEE605C0020160F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C050A01EEE616C0020160F /* FrankPlaceHolder.bundle in Resources */,
+				01C050791EEE605C0020160F /* LaunchScreen.storyboard in Resources */,
+				01C050761EEE605C0020160F /* Assets.xcassets in Resources */,
+				01C050741EEE605C0020160F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C0507D1EEE605D0020160F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C050881EEE605D0020160F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01C050621EEE605C0020160F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C050711EEE605C0020160F /* ViewController.m in Sources */,
+				01C050A11EEE616C0020160F /* UIView+FrankPlaceHolderView.m in Sources */,
+				01C0506E1EEE605C0020160F /* AppDelegate.m in Sources */,
+				01C0506B1EEE605C0020160F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C0507B1EEE605D0020160F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C050841EEE605D0020160F /* FrankPlaceHolderViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C050861EEE605D0020160F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C0508F1EEE605D0020160F /* FrankPlaceHolderViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01C050811EEE605D0020160F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01C050651EEE605C0020160F /* FrankPlaceHolderViewDemo */;
+			targetProxy = 01C050801EEE605D0020160F /* PBXContainerItemProxy */;
+		};
+		01C0508C1EEE605D0020160F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01C050651EEE605C0020160F /* FrankPlaceHolderViewDemo */;
+			targetProxy = 01C0508B1EEE605D0020160F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01C050721EEE605C0020160F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01C050731EEE605C0020160F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01C050771EEE605C0020160F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01C050781EEE605C0020160F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01C050911EEE605D0020160F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		01C050921EEE605D0020160F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01C050941EEE605D0020160F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FrankPlaceHolderViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrankPlaceHolderViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01C050951EEE605D0020160F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FrankPlaceHolderViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrankPlaceHolderViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		01C050971EEE605D0020160F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FrankPlaceHolderViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrankPlaceHolderViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FrankPlaceHolderViewDemo.app/FrankPlaceHolderViewDemo";
+			};
+			name = Debug;
+		};
+		01C050981EEE605D0020160F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FrankPlaceHolderViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrankPlaceHolderViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FrankPlaceHolderViewDemo.app/FrankPlaceHolderViewDemo";
+			};
+			name = Release;
+		};
+		01C0509A1EEE605D0020160F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FrankPlaceHolderViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrankPlaceHolderViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FrankPlaceHolderViewDemo;
+			};
+			name = Debug;
+		};
+		01C0509B1EEE605D0020160F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FrankPlaceHolderViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrankPlaceHolderViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FrankPlaceHolderViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01C050611EEE605C0020160F /* Build configuration list for PBXProject "FrankPlaceHolderViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C050911EEE605D0020160F /* Debug */,
+				01C050921EEE605D0020160F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01C050931EEE605D0020160F /* Build configuration list for PBXNativeTarget "FrankPlaceHolderViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C050941EEE605D0020160F /* Debug */,
+				01C050951EEE605D0020160F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01C050961EEE605D0020160F /* Build configuration list for PBXNativeTarget "FrankPlaceHolderViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C050971EEE605D0020160F /* Debug */,
+				01C050981EEE605D0020160F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01C050991EEE605D0020160F /* Build configuration list for PBXNativeTarget "FrankPlaceHolderViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C0509A1EEE605D0020160F /* Debug */,
+				01C0509B1EEE605D0020160F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01C0505E1EEE605C0020160F /* Project object */;
+}
