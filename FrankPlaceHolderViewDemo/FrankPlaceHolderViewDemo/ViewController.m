@@ -16,6 +16,8 @@
 
 @end
 
+IB_DESIGNABLE
+
 @implementation ViewController
 
 - (void)viewDidLoad {
